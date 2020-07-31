@@ -8,6 +8,7 @@
 
 .navbar__logo{
     width: 200px;
+    
 }
 
 .appbar{
@@ -19,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
+    
      
 }
 
@@ -34,6 +36,7 @@
     font-size: 13px;
     color: white;
     background-color: rgb(0, 0, 0);
+    
 }
 
 .menubar2{
@@ -48,11 +51,13 @@
     font-size: 13px;
     color: white;
     background-color: rgb(0, 0, 0);
+    
 }
 
 .appbar a{
     text-decoration: none;
     /* color:white; */
+    
 }
 
 
@@ -71,11 +76,12 @@
 .menubar li{
     padding: 8px 12px;
     padding-left: 0;
+    
 }
 
 .menubar2 li{
-    padding: 8px 12px;
-    padding-left: 0;
+    padding: 8px 12px 12px 12px;
+    margin-left: 3px;
     
 }
 

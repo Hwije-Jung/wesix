@@ -15,10 +15,13 @@
 .mainpicture{
     height: 500px;
     width: 100%;
-    background-image: url(./hwije.jpg);
+    background-image: url(./yellow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    
 }
 .mainpicture{
     font-family: 'Raleway', sans-serif;
@@ -34,9 +37,10 @@
         .mainpicture_title{
         font-size: 68px;
         display: inline-block;
+        margin-top: 100px;
         margin-left: 10%;
-        margin-top: 50px;
-        margin-bottom: 0px;
+     
+        margin-bottom: 0px; 
     }
 
     .mainpicture_body{
@@ -60,8 +64,8 @@
     .mainpicture{
         height: 500px;
         width: 100%;
-        background-image: url(./hwije.jpg);
-        background-position: 1px -550px;
+
+    
         background-repeat: no-repeat;
         background-size: cover;
         color: rgb(0, 0, 0);        
@@ -75,8 +79,9 @@
         font-weight: 600;
         display: inline-block;
         margin-left: 10%;
-        margin-top: 50px;
+        margin-top: 100px;
         margin-bottom: 0px;
+
     }
 
     .mainpicture_body{
@@ -97,9 +102,9 @@
        
     }
     .mainpicture{
-        height: 500px;
+        height: 450px;
         width: 100%;
-        background-image: url(./hwije.jpg);
+        
         /* background-position: 1px -450px; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -114,7 +119,7 @@
         font-weight: 600;
         display: inline-block;
         margin-left: 10%;
-        margin-top: 50px;
+        margin-top: 100px;
         margin-bottom: 0px;
     }
 
@@ -135,9 +140,9 @@
     }
 
     .mainpicture{
-        height: 500px;
+        height: 400px;
         width: 100%;
-        background-image: url(./hwije.jpg);
+    
         background-repeat: no-repeat;
         background-size: cover;
         color: rgb(0, 0, 0);

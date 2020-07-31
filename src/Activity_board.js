@@ -1,7 +1,7 @@
 import React from 'react';
-import Img1 from './img1.JPG'
-import Img2 from './img2.JPG'
-import Img3 from './img3.JPG'
+import Img1 from './img1.jpg'
+import Img2 from './img2.jpg'
+import Img3 from './img3.jpg'
 import './Activity_board.css';
 
 class Activity_board extends React.Component{
