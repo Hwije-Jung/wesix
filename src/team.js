@@ -13,9 +13,10 @@ class Team extends React.Component{
     render(){
         return(
             <div className="team_member">
+                <div className="member_title"><h1>WeSix 크루원</h1></div>
                 <div className="dongu">
                     <div className="dongu_img">
-                        <img src={Dongu} height="100%" width="100%"/>
+                        <img src={Dongu} className ="real_img_style"/>
                     </div>
                     <div className="dongu_talk">
                         <div className="talk_title">
@@ -30,10 +31,10 @@ class Team extends React.Component{
                 </div>
                 <div className="sungu">
                     <div className="sungu_img">
-                        <img src={Sungu} height="100%" width="100%"/>
+                        <img src={Sungu} className ="real_img_style"/>
                     </div>
                     <div className="sungu_talk">
-                    <div className="talk_title">
+                        <div className="talk_title">
                             <p id="team_name">신성우</p>
                             <p id="team_position">부팀장</p>
                         </div>
@@ -46,7 +47,7 @@ class Team extends React.Component{
                 {/*1 */}
                 <div className="dongu">
                     <div className="dongu_img">
-                        <img src={Jung} height="100%" width="100%"/>
+                        <img src={Jung} className ="real_img_style"/>
                     </div>
                     <div className="dongu_talk">
                         <div className="talk_title">
@@ -61,7 +62,7 @@ class Team extends React.Component{
                 </div>
                 <div className="sungu">
                     <div className="sungu_img">
-                        <img src={Hwe} height="100%" width="100%"/>
+                        <img src={Hwe} className ="real_img_style"/>
                     </div>
                     <div className="sungu_talk">
                     <div className="talk_title">
@@ -77,7 +78,7 @@ class Team extends React.Component{
                   {/*2 */}
                   <div className="dongu">
                     <div className="dongu_img">
-                        <img src={Huk} height="100%" width="100%"/>
+                        <img src={Huk} className ="real_img_style"/>
                     </div>
                     <div className="dongu_talk">
                         <div className="talk_title">
@@ -92,7 +93,7 @@ class Team extends React.Component{
                 </div>
                 <div className="sungu">
                     <div className="sungu_img">
-                        <img src={Junghun} height="100%" width="100%"/>
+                        <img src={Junghun} className ="real_img_style"/>
                     </div>
                     <div className="sungu_talk">
                     <div className="talk_title">
@@ -108,7 +109,7 @@ class Team extends React.Component{
                  {/*3 */}
                  <div className="dongu">
                     <div className="dongu_img">
-                        <img src={One} height="100%" width="100%"/>
+                        <img src={One} className ="real_img_style"/>
                     </div>
                     <div className="dongu_talk">
                         <div className="talk_title">
@@ -123,7 +124,7 @@ class Team extends React.Component{
                 </div>
                 <div className="sungu">
                     <div className="sungu_img">
-                        <img src={Min} height="100%" width="100%"/>
+                        <img src={Min} className ="real_img_style"/>
                     </div>
                     <div className="sungu_talk">
                     <div className="talk_title">
