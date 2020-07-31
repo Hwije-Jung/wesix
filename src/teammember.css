@@ -4,21 +4,20 @@
     width: 100%;
     height: 1600px;
     margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
-.member_title{
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    text-align: center;
-    height: 70px;
-    min-width: 350px;
-}
+
 .member_title h1{
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
+    text-align: center;
+        color: #d49466;
+
 }
 
 .real_img_style{
@@ -32,46 +31,161 @@
     font-size: 30px;
     font-family: 'Nanum Pen Script', cursive;
 }
+
+#quotoSS{
+    font-size: 18pt;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+
+
 .dongu{
-    width: 49%;
+    width: 600px;
     /* min-width: 450px; */
     height: 400px;
     background-color: rgb(247, 245, 245);
-    float: left;
+ 
     border-radius: 12px;
+    display: flex;
+
+  
 }
 .sungu{
-    width: 50%;
+    width: 600px;
     /* min-width: 450px; */
     height: 400px;
-    float: left;
+ 
     margin-left: 5px;
     background-color: rgb(247, 245, 245);
     border-radius: 12px;
+
+    display: flex;
+   
+
 }
+
+
+
 .dongu_img{
     border-radius: 150px;
-    width: 30%;
-    height: 55%;
+    width: 260px;
+    height: 260px;
     margin-top: 50px;
-    margin-left: 90px;
+    margin-left: 10px;
     display: inline-block;
+    background-image: url(./dongu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
-.dongu_img img{
+
+.sungu_img{
     border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(./sungu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yb{
+    border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(./jungyoungbean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hwi{
+    border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(./hweje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.YH{
+    border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(yunhuk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.junghun{
+    border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(./junghun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Heo{
+    border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(./one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MC{
+    border-radius: 150px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(./min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.dongu_img img{
+    border-radius: 70%;
 }
 .sungu_img img{
-    border-radius: 150px;
+    border-radius: 70%;
 }
 .sungu_img{
     border-radius: 150px;
-    width: 30%;
-    height: 55%;
+    width: 260px;
+    height: 260px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 10px;
     display: inline-block;    
 }
+
+
+
 .dongu_talk{
     margin-top: 40px;
     margin-right: 10px;
@@ -90,6 +204,7 @@
     background-color:rgb(247, 245, 245);
     border-radius: 12px;
 }
+
 .talk_title{
     border-bottom: 1px solid rgb(182, 182, 182);
     width: 100%;
@@ -118,52 +233,45 @@
     margin-left: 30px;
 }
 
-
 /* PC (해상도 1024px)*/
-@media all and (min-width:1024px) { /*스타일입력*/}
+@media all and (min-width:1024px){
+
+}
 
 /* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
-@media all and (min-width:768px) and (max-width:1023px) { }
+@media all and (min-width:768px) and (max-width:1023px) { 
+    
+
+}
 
 /* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
 @media all and (max-width:767px) {
-    .dongu{
-        width: 49%;
-        min-width: 400px;
-        height: 400px;
-        background-color: rgb(247, 245, 245);
-        float: left;
-        border-radius: 12px;
-    }
-    .sungu{
-        width: 50%;
-        min-width: 400px;
-        height: 400px;
-        float: left;
-        margin-left: 5px;
-        background-color: rgb(247, 245, 245);
-        border-radius: 12px;
-    }
-    .dongu_img{
-        border-radius: 150px;
-        width: 30%;
-        height: 55%;
-        margin-top: 50px;
-        margin-left: 50px;
-        display: inline-block;
-        
-    }
-    .sungu_img{
-        border-radius: 150px;
-        width: 30%;
-        height: 55%;
-        margin-top: 50px;
-        margin-left: 50px;
-        display: inline-block;    
-    }
+
+
     #quoto{
-        font-size: 22px;
+        font-size: 20px;
         font-family: 'Nanum Pen Script', cursive;
     }
+
+    .talk_body{
+        width: 100%;
+        font-size: 10pt;
+        height: 270px;
+    }
+
+    .sungu{
+       margin-bottom: -30px;
+    }
+    .dongu{
+        margin-bottom: -30px;
+    }
+
+    .dongu_talk{
+        margin-right: 5%;
+    }
+
+    .sungu_talk{
+        margin-right: 5%;
+    }
+    
 }
- 
